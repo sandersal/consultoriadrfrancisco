@@ -90,8 +90,7 @@ export const SearchVolume = () => {
                 <h3 className="text-xl font-bold text-foreground">Validação de Precisão</h3>
               </div>
               <p className="text-foreground leading-relaxed">
-                Para validar com precisão, o ideal é rodar o Google Ads Keyword Planner segmentado para 
-                Itaituba e uma checagem por termo na Semrush local, que permitem granularidade de busca por região.
+                Para melhorar a performance e aproveitar melhor o potencial dessas buscas, o ideal é concentrar esforços nos termos com maior intenção de contratação (como “advogado trabalhista Itaituba” e “advogado previdenciário Itaituba”), criando conteúdos, anúncios e páginas otimizadas especificamente para essas expressões. Assim, o cliente se posiciona melhor nas pesquisas locais e aumenta a taxa de conversão dos contatos gerados.
               </p>
             </Card>
           </div>

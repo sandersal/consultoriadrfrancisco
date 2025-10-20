@@ -88,66 +88,53 @@ export const ChannelDiagnostics = () => {
     {
       icon: <Palette size={24} className="text-primary" />,
       title: "Identidade Visual e Branding",
-      score: 78,
+      score: 55,
       description: "Consistência de marca e percepção visual",
       color: "bg-primary/10",
       insights: [
-        "Logo bem aplicada em 85% dos materiais",
-        "Paleta de cores consistente nas redes sociais",
-        "Tipografia precisa de padronização no site",
-        "Manual de marca desatualizado"
-      ]
-    },
-    {
-      icon: <Instagram size={24} className="text-secondary" />,
-      title: "Redes Sociais",
-      score: 65,
-      description: "Instagram, Facebook e TikTok",
-      color: "bg-secondary/10",
-      insights: [
-        "Frequência de posts irregular",
-        "Engajamento acima da média no Instagram",
-        "Stories sendo subutilizados",
-        "Falta estratégia de conteúdo no TikTok"
+        "Padronizar paleta/tipografia e aplicar nos avatares/capas/arte de posts",
+        "Criar tagline clara ('Trabalhista, Previdenciário e Inventários em Itaituba')",
+        "Produzir fotografia institucional (escritório/equipe)",
+        "Montar guia de marca (logo em variações, usos, proibições) e kit de templates"
       ]
     },
     {
       icon: <Search size={24} className="text-accent" />,
       title: "Google e SEO Local",
-      score: 58,
+      score: 38,
       description: "Posicionamento e busca orgânica",
       color: "bg-accent/10",
       insights: [
-        "Perfil GMB incompleto e sem atualizações",
-        "Apenas 30% das palavras-chave ranqueadas",
-        "Meta descriptions ausentes em 60% das páginas",
-        "Velocidade do site precisa melhorar"
-      ]
-    },
-    {
-      icon: <Globe size={24} className="text-warning" />,
-      title: "Site e Experiência do Usuário",
-      score: 72,
-      description: "Performance, design e usabilidade",
-      color: "bg-warning/10",
-      insights: [
-        "Design responsivo funcionando bem",
-        "Tempo de carregamento: 3.2s (ideal < 2s)",
-        "CTAs pouco destacados",
-        "Falta integração com WhatsApp"
+        "Lançar site leve com páginas-alvo: trabalhista, previdenciário e inventário Itaituba",
+        "Otimizar Perfil no Google (GMB): categorias, descrição, fotos, posts semanais",
+        "Criar conteúdos-guia ('Como funciona o inventário extrajudicial no Pará')",
+        "Construir citations locais (OAB/PA, diretórios) e backlinks regionais"
       ]
     },
     {
       icon: <Megaphone size={24} className="text-primary" />,
-      title: "Anúncios Pagos",
-      score: 81,
-      description: "Google Ads, Meta Ads e Performance",
+      title: "Anúncios Pagos (Google/Meta)",
+      score: 30,
+      description: "Sem campanhas ativas no momento",
       color: "bg-primary/10",
       insights: [
-        "ROI positivo de 4.2x nos últimos 3 meses",
-        "Segmentação bem definida",
-        "Oportunidade de expansão em campanhas de remarketing",
-        "Criativos com bom desempenho"
+        "Estruturar campanhas de pesquisa com grupos por intenção: trabalhista, previdenciário, inventário",
+        "Extensões: local, chamada (DDD 93), sitelinks por serviço",
+        "Teste de LP (páginas separadas por serviço) e captação via WhatsApp",
+        "Remarketing leve no Meta Ads com criativos educativos"
+      ]
+    },
+    {
+      icon: <Instagram size={24} className="text-secondary" />,
+      title: "Redes Sociais (Instagram, Facebook, TikTok)",
+      score: 52,
+      description: "Presença ativa mas com oportunidades",
+      color: "bg-secondary/10",
+      insights: [
+        "Grade com 3 formatos: Educação (direitos), Bastidores/Autoridade, Chamada p/ ação",
+        "Reels semanais (60–90s) respondendo dúvidas comuns de cada área",
+        "Stories diários com bastidores e 'caixa de perguntas'",
+        "Destaques organizados: Trabalhista, Previdenciário, Inventário, Avaliações"
       ]
     }
   ];

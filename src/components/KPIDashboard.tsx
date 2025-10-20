@@ -52,50 +52,50 @@ export const KPIDashboard = () => {
     {
       icon: <Users size={24} className="text-primary" />,
       title: "Alcance nas Redes",
-      value: "124.5K",
-      change: "+12.3%",
-      trend: "up" as const,
+      value: "3.8K",
+      change: "Estim.",
+      trend: "neutral" as const,
       description: "Impressões mensais totais"
     },
     {
       icon: <Star size={24} className="text-secondary" />,
       title: "Engajamento Médio",
-      value: "8.2%",
-      change: "+2.1%",
-      trend: "up" as const,
+      value: "2.7%",
+      change: "Estim.",
+      trend: "neutral" as const,
       description: "Taxa de interação com conteúdo"
     },
     {
       icon: <Eye size={24} className="text-accent" />,
       title: "Tráfego do Site",
-      value: "45.2K",
-      change: "-5.4%",
+      value: "0",
+      change: "Sem site",
       trend: "down" as const,
       description: "Visitantes únicos mensais"
     },
     {
       icon: <Target size={24} className="text-warning" />,
       title: "Pontuação SEO",
-      value: "72/100",
-      change: "+8 pts",
-      trend: "up" as const,
-      description: "Score técnico otimização"
+      value: "22/100",
+      change: "Estim.",
+      trend: "down" as const,
+      description: "Apenas GMB/Maps ativo"
     },
     {
       icon: <MousePointerClick size={24} className="text-primary" />,
       title: "Taxa de Conversão",
-      value: "3.8%",
-      change: "+0.9%",
-      trend: "up" as const,
-      description: "Conversões sobre visitantes"
+      value: "n/d",
+      change: "Sem dados",
+      trend: "neutral" as const,
+      description: "Sem site/landing page"
     },
     {
       icon: <TrendingUp size={24} className="text-secondary" />,
       title: "ROI de Anúncios",
-      value: "4.2x",
-      change: "+1.1x",
-      trend: "up" as const,
-      description: "Retorno sobre investimento"
+      value: "n/d",
+      change: "Sem campanhas",
+      trend: "neutral" as const,
+      description: "Nenhuma campanha ativa"
     }
   ];
 

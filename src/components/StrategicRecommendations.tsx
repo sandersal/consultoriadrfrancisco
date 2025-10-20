@@ -43,11 +43,11 @@ export const StrategicRecommendations = () => {
       title: "O que está funcionando",
       color: "bg-accent/10 text-accent",
       items: [
-        "Campanhas de anúncios pagos gerando ROI positivo e consistente",
-        "Identidade visual bem aplicada nas principais plataformas",
-        "Engajamento acima da média do setor no Instagram",
-        "Design responsivo do site funcionando perfeitamente",
-        "Segmentação de público bem definida e assertiva"
+        "Presença no Google Maps ativa — base para captação local via 'perto de mim'",
+        "Foco em áreas com alta intenção (Trabalhista/Previdenciário/Inventário)",
+        "WhatsApp direto como canal de contato (conversão mais rápida no jurídico local)",
+        "Marca do profissional já aparece em listagens/menções locais",
+        "Concorrência digital ainda difusa — janela boa para ganhar posição"
       ]
     },
     {
@@ -55,26 +55,23 @@ export const StrategicRecommendations = () => {
       title: "O que precisa ser ajustado",
       color: "bg-warning/10 text-warning",
       items: [
-        "Perfil do Google Meu Negócio precisa ser atualizado e completado",
-        "Frequência de publicações nas redes sociais está irregular",
-        "Velocidade de carregamento do site pode ser otimizada",
-        "Meta descriptions e títulos SEO precisam de revisão",
-        "Stories do Instagram estão sendo subutilizados",
-        "Manual de marca desatualizado causando inconsistências"
+        "Ausência de site impede SEO, mensuração (GA4) e qualidade em Ads",
+        "Perfil Instagram sem arquitetura de conteúdo (pilares, destaques, bio SEO)",
+        "GMB subaproveitado (posts, fotos, Q&A, avaliações recorrentes)",
+        "Nenhum funil básico (lead magnet jurídico simples + automação de follow-up)",
+        "Sem captação de reviews estruturada (impacto direto no ranque local)"
       ]
     },
     {
       icon: <Rocket size={24} className="text-secondary" />,
-      title: "O que recomendamos implementar",
+      title: "O que recomendamos implementar (próximos 30–60 dias)",
       color: "bg-secondary/10 text-secondary",
       items: [
-        "Estratégia de SEO técnico para melhorar ranqueamento orgânico",
-        "Calendário editorial estruturado para redes sociais",
-        "Campanhas de remarketing para aumentar conversões",
-        "Integração com WhatsApp Business no site",
-        "Expansão para TikTok com estratégia de conteúdo específica",
-        "Automação de marketing para nutrição de leads",
-        "Dashboard unificado para acompanhamento de métricas"
+        "Site enxuto + 3 landing pages (Trabalhista, Previdenciário, Inventário) com CTAs para WhatsApp",
+        "SEO Local completo no GMB: categorias, descrição, 10–15 fotos originais, 2 posts/sem, Q&A, 5+ avaliações/mês",
+        "Campanhas Google Ads Pesquisa: 3 campanhas (uma por área), palavras negativas, extensões e lances por raio",
+        "Calendário de Conteúdo (8–12 posts/mês): 4 Reels educativos, 4 carrosséis 'passo a passo', 2 provas sociais",
+        "Captação e CRM simples: formulário de triagem por área com integração WhatsApp (SLA < 10 min)"
       ]
     }
   ];
@@ -105,18 +102,18 @@ export const StrategicRecommendations = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-secondary mb-2">Curto Prazo</div>
-                <div className="text-sm text-muted-foreground">SEO técnico e GMB</div>
+                <div className="text-sm text-muted-foreground">Site + SEO Local (GMB)</div>
                 <div className="text-xs text-muted-foreground mt-1">1-2 meses</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-warning mb-2">Médio Prazo</div>
-                <div className="text-sm text-muted-foreground">Estratégia de conteúdo</div>
-                <div className="text-xs text-muted-foreground mt-1">3-4 meses</div>
+                <div className="text-sm text-muted-foreground">Google Ads + Conteúdo</div>
+                <div className="text-xs text-muted-foreground mt-1">2-3 meses</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-2">Longo Prazo</div>
-                <div className="text-sm text-muted-foreground">Rebranding digital</div>
-                <div className="text-xs text-muted-foreground mt-1">5-6 meses</div>
+                <div className="text-sm text-muted-foreground">Automação + CRM</div>
+                <div className="text-xs text-muted-foreground mt-1">4-6 meses</div>
               </div>
             </div>
           </div>

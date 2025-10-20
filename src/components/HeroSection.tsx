@@ -39,7 +39,7 @@ export const HeroSection = () => {
       const imgY = 0;
       
       pdf.addImage(imgData, "PNG", imgX, imgY, imgWidth * ratio, imgHeight * ratio);
-      pdf.save("Auditoria-Marketing-Digital-Anderson-Mendonca.pdf");
+      pdf.save("Auditoria-Marketing-Digital-Francisco-Santos-Advogados.pdf");
       
       toast.success("PDF baixado com sucesso!");
     } catch (error) {
@@ -86,9 +86,9 @@ export const HeroSection = () => {
           <div className="animate-fade-in-up mb-8" style={{ animationDelay: '0.3s' }}>
             <div className="inline-block bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-8 py-4">
               <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-1">
-                Dr. Anderson Mendonça
+                Francisco Santos Advogados
               </h2>
-              <p className="text-xl md:text-xl text-primary-foreground/80 mb-1">Advogado</p>
+              <p className="text-xl md:text-xl text-primary-foreground/80 mb-1">Trabalhista, Previdenciária e Inventário</p>
               <p className="text-xl md:text-xl text-primary-foreground/70">Itaituba / PA</p>
             </div>
           </div>
@@ -116,16 +116,16 @@ export const HeroSection = () => {
           {/* Trust indicators */}
           <div className="mt-16 grid grid-cols-3 gap-8 animate-scale-in" style={{ animationDelay: '0.6s' }}>
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-2">87%</div>
+              <div className="text-4xl font-bold text-secondary mb-2">44%</div>
               <div className="text-sm text-primary-foreground/80">Score Médio Atual</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">+245%</div>
+              <div className="text-4xl font-bold text-accent mb-2">+380%</div>
               <div className="text-sm text-primary-foreground/80">Potencial de Crescimento</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-warning mb-2">12</div>
-              <div className="text-sm text-primary-foreground/80">Áreas Analisadas</div>
+              <div className="text-4xl font-bold text-warning mb-2">530</div>
+              <div className="text-sm text-primary-foreground/80">Buscas Mensais Locais</div>
             </div>
           </div>
         </div>
